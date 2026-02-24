@@ -1,65 +1,19 @@
-/* Background image for the body */
 body {
-  margin: 0;
-  padding: 0;
-  font-family: monospace;
-  color: black;
-  text-shadow: 1px 1px 3px black;
-  background: none; /* we'll move background to ::before */
-  position: relative;
-}
+      background-color: black;
+      margin: 0;
+      font-family: 'Courier New', monospace; /* Replace with pixel font if needed */
+    }
 
-/* Background image container using pseudo-element */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: url('persona3.gif') no-repeat center center fixed;
-  background-size: cover;
-  z-index: 0;
-  pointer-events: none; /* allows clicks through to content above */
+h1 {font-family: 'south park letter', sans serif;
+  color: orangered ;}
+@font-face {
+  font-family: 'south park letter';
+  src: url('south_park.ttf') format('truetype');
 }
+li {color: white;
+ font-family: Comic Sans MS;}
+ h2 {color: white;
+ font-family: Comic Sans MS; }
+ ul {color: white;
+ font-family: 'south park letter' }
 
-/* Navbar styles */
-nav {
-  position: relative;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px 0;
-  text-align: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  font-family: sans-serif; /* <<< match this line */
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 20px;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s;
-}
-
-/* Navbar links */
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-
-/* Main content area */
-.content {
-  position: relative;
-  z-index: 5; /* sits above background, below nav */
-  padding: 40px;
-  background: rgba(0, 0, 0, 0.5); /* translucent box */
-  max-width: 600px;
-  margin: 100px auto;
-  border-radius: 10px;
-  border: 2px solid #ff88cc;
-}
-h1 {
-  position:relative}
