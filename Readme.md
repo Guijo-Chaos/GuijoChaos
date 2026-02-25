@@ -1,3 +1,13 @@
+## Olá boa noite
+
+- Estou passando aqui para informar que eu organizei o codigo em pastas, para ser um modo mais organizado e mais facil de trabalhar
+
+---
+
+- Na questão de codigo teve mudanças no *index.html* e no *style.css*
+
+> index.html
+``` html
 <!DOCTYPE html>
 <html>
 <head> <!--treco confuso, mas é assim que se faz notas--> 
@@ -38,3 +48,52 @@
 
   </body>
 </html>
+```
+
+> style.css
+```css
+body {
+  background-color: black;
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  /* Replace with pixel font if needed */
+}
+
+h1 {
+  font-family: 'south park letter', sans serif;
+  color: orangered;
+}
+
+@font-face {
+  font-family: 'south park letter';
+  src: url('south_park.ttf') format('truetype');
+}
+
+li {
+  color: white;
+  font-family: Comic Sans MS;
+}
+
+h2 {
+  color: white;
+  font-family: Comic Sans MS;
+}
+
+ul {
+  color: white;
+  font-family: 'south park letter'
+}
+
+.texto-provisorio {
+  border: 2px solid #f35e07;
+  box-shadow: 0 0 8px #000000;
+  background-color: black;
+  color: #fff8d4;
+  font-family: 'south park letter', sans serif;
+  padding: 10px;
+  width: 50%;
+  height: 150px;
+}
+```
+
+- Estou enviando essa pull request para analise obrigado.
