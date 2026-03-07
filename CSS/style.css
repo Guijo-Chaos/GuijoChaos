@@ -7,7 +7,7 @@ body {
 
 @font-face {
   font-family: 'south park letter';
-  src: url('../IMG/south_park.ttf') format('truetype');
+  src: url('../FONTS/south_park.ttf') format('truetype');
 }
 
 h1 {
