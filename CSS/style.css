@@ -10,6 +10,7 @@ body {
   src: url('../FONTS/south_park.ttf') format('truetype');
 }
 
+
 h1 {
   font-family: 'south park letter', sans serif;
   color: orangered;
@@ -30,13 +31,24 @@ ul {
   font-family: 'south park letter'
 }
 
-.texto-provisorio {
+.texto-provisório {
   border: 2px solid #f35e07;
   box-shadow: 0 0 8px #000000;
   background-color: black;
   color: #fff8d4;
-  font-family: 'south park letter', sans serif;
+  font-family: 'Comic Sans MS', sans serif;
   padding: 10px;
   width: 50%;
   height: 150px;
+}
+
+.descrição {
+  border: 2px solid #f35e07;
+  box-shadow: 0 0 8px #000000;
+  background-color: black;
+  color: orange;
+  font-family: 'Comic Sans MS', sans serif;
+  padding: 10px;
+  width: 116%;
+  height: 50px;
 }
